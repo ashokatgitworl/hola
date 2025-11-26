@@ -5,9 +5,9 @@ ENV_FPATH = os.path.join(ROOT_DIR, ".env")
 
 CODE_DIR = os.path.join(ROOT_DIR, "code")
 
-APP_CONFIG_FPATH = os.path.join(ROOT_DIR, "ASKTHEDOCS/config", "config.yaml")
-PROMPT_CONFIG_FPATH = os.path.join(ROOT_DIR, "ASKTHEDOCS/config", "prompt_config.yaml")
-OUTPUTS_DIR = os.path.join(ROOT_DIR, "ASKTHEDOCS/outputs")
+APP_CONFIG_FPATH = os.path.join(ROOT_DIR, "ASKM/config", "config.yaml")
+PROMPT_CONFIG_FPATH = os.path.join(ROOT_DIR, "ASKM/config", "prompt_config.yaml")
+OUTPUTS_DIR = os.path.join(ROOT_DIR, "ASKM/outputs")
 
 DATA_DIR = os.path.join(ROOT_DIR, "Source")
 PUBLICATION_FPATH = os.path.join(DATA_DIR, "publication.md")
