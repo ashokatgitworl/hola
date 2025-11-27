@@ -30,11 +30,11 @@ env/
 # -------------------------
 # ChromaDB / Vector Stores
 # -------------------------
-chromadb/
-db/
-vectorstore/
-*.npy
-*.bin
+# chromadb/
+# db/
+# vectorstore/
+# *.npy
+# *.bin
 
 # -------------------------
 # Streamlit
