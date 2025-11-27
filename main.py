@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from utils import load_yaml_config
 from prompt_builder import build_prompt_from_config
 from langchain_groq import ChatGroq
-from paths import APP_CONFIG_FPATH, PROMPT_CONFIG_FPATH, OUTPUTS_DIR
+from paths import APP_CONFIG_FPATH, PROMPT_CONFIG_FPATH, OUTPUTS_DIR, PUBLICATION_FPATH
 from DataIngestion import get_db_collection, embed_documents
 import streamlit as st
 logger = logging.getLogger()

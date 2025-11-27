@@ -24,8 +24,8 @@ env/
 
 # Jupyter & temp files
 .ipynb_checkpoints/
-*.sqlite
-*.sqlite3
+# *.sqlite
+# *.sqlite3
 
 # -------------------------
 # ChromaDB / Vector Stores
